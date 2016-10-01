@@ -1,0 +1,7 @@
+scriptPath:
+  required: "True"
+  help: "Get current Jmeter test plan path"
+
+scriptPath2:
+  required: "False"
+  help: "get other path"
