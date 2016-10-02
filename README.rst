@@ -4,8 +4,6 @@ This is supposed to read a yaml file to figure out what the command line argumen
 
 .. code-block:: yaml
 
-    { foo: bar, bar: { foo: bar, bar: baz } }
-
     { prog: Program, description: Description, epilog: Epilog,
       arguments: {
          argOne: {
