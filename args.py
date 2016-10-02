@@ -4,7 +4,7 @@ import yaml
 
 
 def args_from_config(file_name='args.yaml'):
-        """Read arg yaml and process."""
+        """Read arg yaml then create arg parser."""
         with open(file_name) as f:
             args = yaml.load(f)
 
