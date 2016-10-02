@@ -1,7 +1,6 @@
 """Test args_from_config."""
 import pytest
-import argparse
-from argparser import ArgParser
+from config_based_arg_parser import ArgParser
 
 
 def test_args_from_config_default_filename():
