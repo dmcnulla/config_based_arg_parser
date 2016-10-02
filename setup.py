@@ -3,7 +3,7 @@
 
 from distutils.core import setup
 
-setup(name='Distutils',
+setup(name='ConfBasedArgParser',
       version='0.1.0',
       description='Configuation-based Arg Parser',
       author='Dave McNulla',
