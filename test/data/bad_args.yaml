@@ -1,5 +1,3 @@
-prog: Python
-description: Test Argument Parser
 epilog: And that's how you'd foo a bar
 arguments:
   scriptPath:
@@ -7,5 +5,5 @@ arguments:
     help: Get current Jmeter test plan path
 
   scriptPath2:
-    required: False
+    required:
     help: get other path
