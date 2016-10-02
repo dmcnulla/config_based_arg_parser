@@ -1,7 +1,7 @@
 """Set up the package."""
-#!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup, find_packages
+
 
 setup(name='ConfBasedArgParser',
       version='0.1.0',
@@ -9,5 +9,5 @@ setup(name='ConfBasedArgParser',
       author='Dave McNulla',
       author_email='mcnulla@gmail.com',
       url='https://github.com/dmcnulla/config_based_arg_parser',
-      packages=[config_based_arg_parser],
+      packages=find_packages(),
       )
