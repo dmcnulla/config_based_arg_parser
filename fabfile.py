@@ -5,4 +5,5 @@ from fabric.api import local, task
 @task
 def test():
     """Run tests for this project."""
-    local('PYTHONPATH="$PYTHONPATH:." py.test -v --cov')
+    path = 'PYTHONPATH="$PYTHONPATH:.:./config_based_arg_parser/" '
+    local(path + 'py.test -v --cov')

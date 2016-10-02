@@ -9,5 +9,5 @@ setup(name='ConfBasedArgParser',
       author='Dave McNulla',
       author_email='mcnulla@gmail.com',
       url='https://github.com/dmcnulla/config_based_arg_parser',
-      packages=[],
+      packages=[config_based_arg_parser],
       )
